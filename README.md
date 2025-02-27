@@ -1,3 +1,4 @@
+
 # Employee Analytics Dashboard - Power BI
 
 📝 Description
@@ -5,7 +6,7 @@
 Ce projet présente un dashboard Power BI interactif permettant d'analyser les employés d'une entreprise à travers différentes dimensions, telles que :
 
 * Effectifs totaux et répartition par genre
-* Classement des employés en fonction de leur rating
+* Le motif de départ des employés par département
 * Recrutement par année et département
 * Statut des employés (Actifs vs. Terminés)
 * Coût de la formation par département et par an
@@ -21,28 +22,30 @@ Les données utilisées dans ce rapport incluent :
 - Division : Division spécifique de l’employé
 - Total des employés, Nbr d'employés femmes, Nbr d'employés hommes : Nombre total d’employés et répartition par genre
 - Coût de la formation par année et département: Coût des formations des employés selon les départements et les années
+- Statut des employés
+- Ancienneté des employés
 
 📊 Visuels Power BI intégrés
 
 1️⃣ KPI Cards : Affichent le total des employés et leur répartition
 
-![Image](https://github.com/user-attachments/assets/8809bef6-c592-4ee7-a22e-b76e0e33d987)
+![Image](https://github.com/user-attachments/assets/435481f2-a38e-43e4-aa58-0678634b2543)
 
-2️⃣ Graphique en barres : Suivi du recrutement des employés par département et année
+2️⃣ Graphique en barres : Suivi du recrutement et départ des employés par département
 
-![Image](https://github.com/user-attachments/assets/4d9aa7a3-6199-49fe-8210-fa142935f201)
+![Image](https://github.com/user-attachments/assets/069f8379-df98-4fc3-9135-7d39e5c0de5e)
 
-3️⃣ Graphique en secteurs (Pie Chart) : Comparaison entre employés actifs et terminés
+3️⃣ Graphique en barre (Pie Chart) : Evolution des recrutements par année
 
-![Image](https://github.com/user-attachments/assets/63c1d356-8432-4f80-8f41-dcde620736f2)
+![Image](https://github.com/user-attachments/assets/42c9c165-3b8c-42a1-9e99-ecec68dea531)
 
 4️⃣ Graphique empilé : Répartition des coûts de formation par département
 
 ![Image](https://github.com/user-attachments/assets/31122981-eed2-42a4-85bd-a53a899e63be)
 
-5️⃣ Tableau : Classement des employés selon leur performance et leur département
+5️⃣ Tableau : Informations sur les employés (nom, notation, statut, département, motif de sortie, poste occupé etc...)
 
-![Image](https://github.com/user-attachments/assets/a79407ae-b3d0-4b8b-b296-a7363f603321)
+![Image](https://github.com/user-attachments/assets/9b366805-7bcf-4be2-aba3-a77a7adca581)
 
 🚀 Installation et Utilisation
 
@@ -50,3 +53,5 @@ Les données utilisées dans ce rapport incluent :
 
     Power BI Desktop
     Fichier de données source (CSV)
+
+
